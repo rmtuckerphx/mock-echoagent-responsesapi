@@ -3,5 +3,5 @@ curl -X POST http://localhost:8000/v1/responses \
   -H "Content-Type: application/json" \
   -d '{
     "model": "mock-model",
-    "input": "Hey there!"
+    "input": "(LOCAL) Hey there!"
     }'
